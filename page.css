@@ -3,26 +3,30 @@
     margin: 0%;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Manrope', sans-serif;
 }
-h1{
+h1, .jp h2, .end h2{
     color: blue;
 }
+
 h2{
     margin-bottom: 1%;
-    color: blue;
+    color: black;
+    font-weight: bold;
 }
-.biro{
-
-    margin: 20px
+.water{
+    font-weight: bold;
 }
+   
 .jp{
     display: flex;
     align-items: center;
 }
 .tooth{
     margin: 2%;
+    margin-top: 10%;
 }
 .spy{
     margin: 2%;
@@ -36,7 +40,7 @@ header{
     border-color: blue; 
     border-radius: 5px;
     margin: 10px;
-    gap: 2px;
+    gap: 2%;
 }
 main{
     display: flex;
@@ -55,27 +59,29 @@ main{
     margin-top: 2%;
     
 }
-.paste{
-    margin-right: 10%;
-}
+
 .leg{
     margin: 2%;
 }
 .lit{
     margin: 2%;
+    margin-top: 5%;
 }
 footer{
     display: flex;
     border-style: solid;
     border-color: blue;
     border-radius: 5px;
-    margin: 10px;   
+    margin: 10px;
+      
 }
 .fit{
     margin: 2%;
 }
 .web{
     margin: 2%; 
+    margin-top: 10%;
+    
 }
 
 .footer{
@@ -85,7 +91,9 @@ footer{
     border-style: solid;
     border-color: blue;
     border-radius: 5px;
-    margin: 9px;  
+    margin: 10px;
+    margin-top: 2%;
+    
     
 }
     
@@ -107,6 +115,20 @@ footer{
 .final{
     margin: 1%;
 }
+.paste{
+    padding: 20px;
+}
+button{
+    padding: 10px;
+    color: blue;
+    border-radius: 8px;
+    border-color:rgb(30, 48, 218); 
+
+/* }@media screen and (min-width:){ */
+    
+}
+
+
 
 
 
